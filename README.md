@@ -67,9 +67,11 @@ yarn dev
 
 ## 📂Project Structure
 
+```
 src/
 ├── app/ # Pages and routes using Next.js App Router
 ├── components/ # Reusable UI components (e.g., hotel search, menus)
 ├── lib/ # Helper functions and utilities (e.g., API calls)
 ├── types/ # TypeScript types and interfaces
-└── styles/ # Global styles and reusable CSS classes
+└── styles/ # Global styles and reusable CSS classes`
+```
