@@ -1,6 +1,8 @@
 # 🏨 ReserveBite - Hotel Reservation System
 
-**ReserveBite** is a modern hotel reservation application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It empowers users to search for hotels, explore hotel menus, and enjoy a seamless, responsive experience. This project showcases my expertise in **full-stack development**, **UI/UX design**, and modern web technologies, delivering a scalable and intuitive solution.
+## Overview
+
+ReserveBite is a full-featured hotel reservation platform built with **Next.js**, **TypeScript**, and **Tailwind CSS**. Users can search for hotels by location, availability, and ratings, explore detailed hotel menus and amenities, and manage bookings through an intuitive, mobile‑first interface. Leveraging the Next.js App Router for file‑based routing and **Turbopack** for rapid hot module replacement, ReserveBite delivers fast, server‑side rendered pages and an exceptional development experience.
 
 ---
 
