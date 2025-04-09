@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏨 ReserveBite - Hotel Reservation System
 
-## Getting Started
+**ReserveBite** is a modern hotel reservation application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It empowers users to search for hotels, explore hotel menus, and enjoy a seamless, responsive experience. This project showcases my expertise in **full-stack development**, **UI/UX design**, and modern web technologies, delivering a scalable and intuitive solution.
 
-First, run the development server:
+---
+
+## ✨ Key Features
+
+- **🔍 Hotel Search**: Discover hotels by location, ratings, and availability.
+- **🍽️ Hotel Menus**: Explore detailed menus, services, and amenities for each hotel.
+- **👤 User Profiles**: Create and manage profiles for a personalized experience.
+- **📱 Responsive Design**: Optimized for all devices with **Tailwind CSS**.
+- **⚡ Fast Builds**: Powered by **Turbopack** for rapid development with **Next.js**.
+- **🌐 Server-side Rendering (SSR)**: Boosts performance and SEO.
+
+---
+
+## 🛠️ Technologies Used
+
+This project highlights my skills with the following tools and frameworks:
+
+- **Next.js**: React framework for full-stack apps with SSR and SSG.
+- **TypeScript**: Static typing for safer, cleaner code.
+- **Turbopack**: Next-gen bundler for lightning-fast builds.
+- **Tailwind CSS**: Utility-first CSS for rapid, responsive designs.
+- **React**: Core library for building dynamic UIs.
+- **Next.js App Router**: Modern routing and navigation system.
+- **Responsive Design**: Mobile-first approach for all screen sizes.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/abenezer54/reservebite.git
+cd reservebite
+
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the Development Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Open http://localhost:3000 in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Start Building
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### You can begin editing the app by modifying files inside src/. The page auto-updates as you make changes.
 
-## Learn More
+## 📂Project Structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+├── app/ # Pages and routes using Next.js App Router
+├── components/ # Reusable UI components (e.g., hotel search, menus)
+├── lib/ # Helper functions and utilities (e.g., API calls)
+├── types/ # TypeScript types and interfaces
+└── styles/ # Global styles and reusable CSS classes
