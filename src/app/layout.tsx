@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import Hero from "@/components/Hero";
 import { NavBar } from "@/components/NavBar";
 
 const roboto = Roboto({
@@ -22,8 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <NavBar />
-      <body className={`${roboto.className} antialiased`}>{children}</body>
+      <body className={`${roboto.className} antialiased`}>
+        <NavBar />
+        {children}
+      </body>
     </html>
   );
 }
