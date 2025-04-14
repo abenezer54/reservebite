@@ -8,7 +8,7 @@ import SearchBar from "./search-bar";
 import NotificationPopup from "./notification-popup";
 export const NavBar = () => {
   return (
-    <section className="w-full h-22 flex justify-between items-center pt-4 pb-4 pl-10 pr-10 shadow-[0px_5px_14px_0px_#080F340A]">
+    <section className="w-full h-22 flex justify-between items-center pt-4 pb-4 pl-10 pr-10 shadow-[0px_5px_14px_0px_#080F340A] z-10">
       <Image
         src="/logo.svg"
         alt="ReserveBite Logo"

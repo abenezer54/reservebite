@@ -1,12 +1,9 @@
+import HotelSearch from "@/components/landing/hotel-search";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col">
-      <div className="flex-grow">
-        {/* Your main content goes here */}
-        <div className="h-[500px] flex items-center justify-center text-gray-400">
-          Main content area
-        </div>
-      </div>
+    <main className="flex pl-12 pr-12 pt-8 pb-8 bg-[#F8F8FA] ">
+      <HotelSearch />
     </main>
   );
 }
